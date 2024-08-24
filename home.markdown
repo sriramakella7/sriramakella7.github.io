@@ -4,7 +4,7 @@ title: Home
 permalink: /home/
 ---
 
-<img align="left" width="350px" padding="25px" src="/assets/profile-picture.jpg">
+<img align="left" width="350" hspace="20" src="/assets/profile-picture.jpg">
 
 
 Hello and Welcome to my website! 
