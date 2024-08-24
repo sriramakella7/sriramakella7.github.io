@@ -1,7 +1,7 @@
 # Sriram Akella
 ## Research Scholar, Department of Theoretical Physics, TIFR Mumbai.
 
-<img align="left" width="100" src="/assets/profile-picture.jpg"> 
+<img align="left" width="300" src="/assets/profile-picture.jpg"> 
 
 Hello and Welcome to my website! 
 
