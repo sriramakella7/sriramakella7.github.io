@@ -3,10 +3,9 @@ layout: page
 title: Home
 permalink: /home/
 ---
-# Sriram Akella
-## Research Scholar, Department of Theoretical Physics, TIFR Mumbai.
 
-<img align="left" width="400" src="/assets/profile-picture.jpg"> 
+<img align="left" width="350" src="/assets/profile-picture.jpg">
+&ensp;
 
 Hello and Welcome to my website! 
 
