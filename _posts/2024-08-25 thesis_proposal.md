@@ -1,11 +1,9 @@
 ---
-author:
-- |
-  Sriram Akella\
-  **Advisor:** Prof. Abhijit Gadde
+layout: post
+author: Sriram Akella
 bibliography:
 - references.bib
-title: "**Thesis Proposal**"
+title: Thesis Proposal
 ---
 
 Quantum entanglement [@Horodecki:2009zz] is a physical resource of
