@@ -11,7 +11,7 @@ Hello and welcome to my website!
 
 I'm Sriram Akella, a research scholar at the Department of Theoretical Physics, Tata Institute of Fundamental Research, Mumbai, India. I work within the broad confines of Quantum Information Theory, Quantum Gravity, and Quantum Field Theory.
 
-You can view my publications on [INSPIRE-HEP](https://inspirehep.net/authors/2048277){:target="_blank"}. The slides for some of the presentations I gave are available at [Talks and Presentations](https://sriramakella7.github.io/talks-and-presentations/). Visit [What's New](https://sriramakella7.github.io/whats-new/) to know what I'm up to these days. 
+You can view my publications on [INSPIRE-HEP](https://inspirehep.net/authors/2048277){:target="_blank"}. The slides for some of the presentations I gave are available at [Talks and Presentations](https://sriramakella7.github.io/talks-and-presentations/). Visit [What's New](https://sriramakella7.github.io/whats-new/) to know what I'm up to these days. I tend to make detailed notes on stuff I'm learning about. You can find them on the [Notes](https://sriramakella7.github.io/notes/) page.
 
 You can reach me via email at [sriram.akella@tifr.res.in](mailto:sriram.akella@tifr.res.in). If you'd rather not send an email, fill out the [contact form](https://forms.gle/jJPp45MoWYmYfk6A8){:taget="_blank"}. 
 
