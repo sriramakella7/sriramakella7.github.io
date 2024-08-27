@@ -10,25 +10,23 @@ categories: quant-ph
 ### Quantum Teleportation and LOCC
 
 When we think of entanglement as a physical resource in quantum theory, the idea of LOCC (local operations and classical communications) is natural. The setup we’d imagine is as follows. Alice is here on Earth and Bob is far off in the Andromeda galaxy, and they share a Bell pair
-
-\begin{equation}
-    |\psi \rangle = \frac{1}{\sqrt{2}} |00\rangle + \frac{1}{\sqrt{2}} |11\rangle. 
-\end{equation}
+$$|\psi \rangle = \frac{1}{\sqrt{2}} |00\rangle + \frac{1}{\sqrt{2}} |11\rangle.$$
 
 Now, Alice is handed over another qubit which is in the state 
-$
+$$
 \begin{equation}
     |\phi\rangle = a |0\rangle + b |1\rangle,
-\end{equation}$
+\end{equation}
+$$
 
-where $|a|^2 + |b|^2 = 1$, and she must send this state  over to Bob. This is the famous quantum teleportation problem; all standard textbook stuff. 
+where $$|a|^2 + |b|^2 = 1$$, and she must send this state  over to Bob. This is the famous quantum teleportation problem; all standard textbook stuff. 
 
 In this problem, Alice is allowed to perform operations on her two qubits, and she is allowed to establish a classical communication line with Bob (over e-mail or telephone). She can perform measurements on her qubits and relay the results to Bob via the classical communication channel. Bob can use these results and perform operations on his qubit. This allows Alice and Bob to establish classical correlations. This is the paradigm of LOCC.
 
 LOCC operations come for "free" when we think of entanglement as a resource[^1]. They are operations that don't create entanglement. Therefore, any good measure of entanglement must be non-increasing under LOCC. 
 
 ### Nielsen's Majorization Theorem
-For bipartite states of the form $| \psi_{AB}\rangle \in H_A \otimes H_B$, Nielsen's majorization theorem[^2] states that
+For bipartite states of the form $$| \psi_{AB}\rangle \in H_A \otimes H_B,$$ Nielsen's majorization theorem[^2] states that
 $ 
 \begin{equation}
     | \psi_{AB} \rangle \xrightarrow{\text{LOCC}} | \phi_{AB}\rangle \iff \lambda_{\psi} \preccurlyeq \lambda_{\phi},
