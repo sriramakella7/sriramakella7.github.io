@@ -10,14 +10,16 @@ categories: quant-ph
 ### Quantum Teleportation and LOCC
 
 When we think of entanglement as a physical resource in quantum theory, the idea of LOCC (local operations and classical communications) is natural. The setup we’d imagine is as follows. Alice is here on Earth and Bob is far off in the Andromeda galaxy, and they share a Bell pair
-$$|\psi \rangle = \frac{1}{\sqrt{2}} |00\rangle + \frac{1}{\sqrt{2}} |11\rangle.$$
+
+\begin{equation}
+|\psi \rangle = \frac{1}{\sqrt{2}} |00\rangle + \frac{1}{\sqrt{2}} |11\rangle.
+\end{equation}
 
 Now, Alice is handed over another qubit which is in the state 
-$$
 \begin{equation}
     |\phi\rangle = a |0\rangle + b |1\rangle,
 \end{equation}
-$$
+
 
 where $$|a|^2 + |b|^2 = 1$$, and she must send this state  over to Bob. This is the famous quantum teleportation problem; all standard textbook stuff. 
 
