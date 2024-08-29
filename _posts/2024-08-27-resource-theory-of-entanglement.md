@@ -62,7 +62,7 @@ Under this broader class of "free" operations, does the zoo of multipartite enta
 
 - **Theorem 1 (collapse of SLOCC classes)**: Any state $$|\psi\rangle$$ can be converted to any other state $$|\phi \rangle$$ *probabilistically* via an FSP map $$\Lambda$$. 
 
-- **Theorem 2 (no islands)**: Given any state $$|\psi_1\rangle$$, there exists an *inequivalent* state $$|\psi_2 \rangle$$ and an FSP map $$\Lambda$$ such that $$ \Lambda(\psi_1)) = \psi_2$$. 
+- **Theorem 2 (no islands)**: Given any state $$|\psi_1\rangle$$, there exists an *inequivalent* state $$|\psi_2 \rangle$$ and an FSP map $$\Lambda$$ such that $$\Lambda(\psi_1) = \psi_2$$. 
 
 - **Theorem 3**: Even under the broader class of FSP transformations, there is no maximally entangled three-qubit state.  
 
