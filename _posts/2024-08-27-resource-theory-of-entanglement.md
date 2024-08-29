@@ -10,6 +10,7 @@ When we think of entanglement as a physical resource in quantum theory, the idea
 \begin{equation}
 |\psi \rangle = \frac{1}{\sqrt{2}} |00\rangle + \frac{1}{\sqrt{2}} |11\rangle.
 \end{equation}
+
 Now, Alice is handed over another qubit which is in the state 
 \begin{equation}
     |\phi\rangle = a |0\rangle + b |1\rangle,
@@ -25,17 +26,20 @@ For bipartite states of the form $$| \psi_{AB}\rangle \in H_A \otimes H_B,$$ Nie
 \begin{equation}
     | \psi_{AB} \rangle \xrightarrow{\text{LOCC}} | \phi_{AB}\rangle \iff \lambda_{\psi} \preccurlyeq \lambda_{\phi},
  \end{equation}
- where the $$\lambda$$'s are the Schmidt co-efficients. One immediate consequence of this theorem is the existence of a *maximally* entangled state which takes the form: 
+ where the \(\lambda\)'s are the Schmidt co-efficients. One immediate consequence of this theorem is the existence of a *maximally* entangled state which takes the form: 
  \begin{equation}
 |\psi_{AB}\rangle = \frac{1}{\sqrt{d}}\sum_{i = 1}^{d} |i_A \rangle \otimes |i_B\rangle,
  \end{equation}
- where $$d$$ is the dimension of the smaller Hilbert space between $$H_A$$ and $$H_B$$. Any other bipartite state belonging to $$H_A \otimes H_B$$ majorizes the above state, and hence can be obtained from it via LOCC. In other words, starting from the maximally entangled state, we can reach every bipartite state via LOCC. 
+ 
+ where \(d\) is the dimension of the smaller Hilbert space between \(H_A\) and \(H_B\). Any other bipartite state belonging to \(H_A \otimes H_B\) majorizes the above state, and hence can be obtained from it via LOCC. In other words, starting from the maximally entangled state, we can reach every bipartite state via LOCC. 
 
-### Zoo of Multipartite Entanglement
-However, for multipartite states, things are complicated. There is no analog of the majorization theorem. For three qubits held by Alice, Bob, and Charlie, there are two inequivalent LOCC classes[^3] given by the GHZ and the W states:
+ ### Zoo of Multipartite Entanglement
+ However, for multipartite states, things are complicated. There is no analog of the majorization theorem. For three qubits held by Alice, Bob, and Charlie, there are two inequivalent LOCC classes[^3] given by the GHZ and the W states:
+ $$
 \begin{equation}
     |\text{GHZ}\rangle = \frac{1}{\sqrt{2}} | 000 \rangle + \frac{1}{\sqrt{2}} | 111 \rangle, \quad |\text{W}\rangle = \frac{1}{\sqrt{3}} | 001\rangle + \frac{1}{\sqrt{3}} | 010\rangle + \frac{1}{\sqrt{3}} | 1 0 0 \rangle. 
 \end{equation}
+$$
 In other words, all three-qubit states can be obtained via LOCC starting with the GHZ and W states. However, there is no LOCC that takes the GHZ to W or vice versa. 
 
 When we consider four qubits, there are nine inequivalent ways[^4], and infinitely many beyond four qubits. What's worse: as the number of parties increase, almost every state forms its own inequivalent LOCC class[^5]. Not only is there no maximally entangled state in the LOCC sense, but every state forms its own isolated island. 
@@ -43,27 +47,32 @@ When we consider four qubits, there are nine inequivalent ways[^4], and infinite
 Depending on how you look at it, this state of affairs may be both disappointing and intriguing. But we could take a different approach. Say we forget about all the Alices, Bobs and Charlies, and ask what should the transformations be that don't create entanglement? But before that, what is entanglement? 
 
 ### What is Entanglement? 
-Just to make sure we're all on the same page. We say a pure state $$| \psi \rangle$$ is entangled if it **cannot** be written as a tensor product of the form:
+Just to make sure we're all on the same page. We say a pure state \(| \psi \rangle\) is entangled if it **cannot** be written as a tensor product of the form: 
+$$
 \begin{equation}
 | \psi \rangle = |\psi_1 \rangle \otimes \dots | \psi_q \rangle. 
 \end{equation}
-A mixed state $$\rho$$ is entangled if it **cannot** be written as a convex combination of the form: 
+$$
+A mixed state \(\rho\) is entangled if it **cannot** be written as a convex combination of the form: 
+$$
 \begin{equation}
 \rho = \sum_{i} p_i \, \rho_i^{(1)} \otimes \dots \rho_i^{(q)}. 
 \end{equation}
+$$
 
 ### Full Separability-Preserving maps (FSPs) 
 What are the allowed transformations that don't create entanglement? Instead of LOCC, let's consider the set of transformations that map mixed states to mixed states, but send separable states to separable states. Such transformations can't create entanglement, and the LOCC transformations are a subset of all such transformations. Let's call these transformations full separability-preserving (FSP) transformations[^6]. 
 
-Under this broader class of "free" operations, does the zoo of multipartite entanglement collapse and become something simple? For three qubits, the answer is no[^6]. And although there is no proof for higher number of qubits, it seems reasonable to expect that such a collapse does not occur. An immediate problem is to come up with such a proof, or a counterexample. If there is a maximally entangled state under this FSP paradigm, I'll be quite interested. But I believe it shouldn't be hard, based on some physical expectations, to come up with a proof. 
+Under this broader class of "free" operations, does the zoo of multipartite entanglement collapse and become something simple? Turns out it does, but not quite. The following three theorems have been proved[^6]: 
 
-The way the proof goes, from what I could understand reading the paper, is as follows. There is some FSP monotone (something that doesn't increase under FSPs) that says if there is a maximally entangled state, it is the W state. The authors then compute another FSP monotone for the W and GHZ and get the same answer. However, based on some intermediate steps of the calculation, they rule out W state as the maximally entangled state. Et voila. 
+- **Theorem 1 (collapse of SLOCC classes)**: Any state \(|\psi\rangle\) can be converted to any other state \(|\phi \rangle\) *probabilistically* via an FSP map \(\Lambda\). 
 
-### Where does this all leave us? 
+- **Theorem 2 (no islands)**: Given any state \(|\psi_1\rangle\), there exists an *inequivalent* state \(|\psi_2 \rangle\) and an FSP map \(\Lambda\) such that \( \Lambda(\psi_1)) = \psi_2\). 
 
-The infinitely many inequivalent LOCC classes for more than four qubits is disappointing in the sense that there is no nice way to characterize multipartite entanglement. The bipartite story was quite nice with the Schmidt decomposition and Nielsen's majorization. What the negative result above shows is that extending the LOCC paradigm to FSP doesn't help either. 
+- **Theorem 3**: Even under the broader class of FSP transformations, there is no maximally entangled three-qubit state.  
 
-All of this goes to show that multipartite entanglement is non-trivial, and eludes all attempts at classification. LOCC is a natural paradigm in an operational sense, and extending it hasn't helped pin down what multipartite entanglement means. The best we can hope for is to live with these inequivalent LOCC classes, and come up with novel quantum routines that exploit the nature of their multipartite entanglement. Although I know very little, there are protocols for quantum key distribution (QKD) that utilize genuine multipartite entanglement to achieve a speed-up[^7]. This is probably the right direction to take these lines of research. 
+
+For three qubits, the answer is no[^6]. And although there is no proof for higher number of qubits, it seems reasonable to expect that such a collapse does not occur. An immediate problem is to come up with such a proof. But until such a proof is found (and it hasn't been found to the best of my knowledge), there is a chance that for more number of qubits, the zoo collapses. 
 
 
 
@@ -86,6 +95,4 @@ All of this goes to show that multipartite entanglement is non-trivial, and elud
 
 [^5]: Sauerwein, D., Wallach, N. R., Gour, G., & Kraus, B. (2018). *Transformations among pure multipartite entangled states via local operations are almost never possible.* Physical Review X, **8**(3), 031020, available at [1711.11056](https://doi.org/10.48550/arXiv.1711.11056). 
 
-[^6]: Contreras-Tejada, P., Palazuelos, C., & De Vicente, J. I. (2019). *Resource theory of entanglement with a unique multipartite maximally entangled state.* Physical Review Letters, **122**(12), 120503, available at [1807.11395](https://doi.org/10.48550/arXiv.1807.11395). 
-
-[^7]: Epping, M., Kampermann, H., & Bruß, D. (2017). *Multi-partite entanglement can speed up quantum key distribution in networks.* New Journal of Physics, **19**(9), 093012, available at [1612.05585](https://doi.org/10.48550/arXiv.1612.05585). 
+[^6]: Contreras-Tejada, P., Palazuelos, C., & De Vicente, J. I. (2019). *Resource theory of entanglement with a unique multipartite maximally entangled state.* Physical Review Letters, **122**(12), 120503, available at [1807.11395](https://doi.org/10.48550/arXiv.1807.11395)
