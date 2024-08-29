@@ -2,6 +2,7 @@
 layout: post
 title: "Resource theory of quantum entanglement" 
 categories: quant-ph
+comments: true
 ---
 
 ### Quantum Teleportation and LOCC
