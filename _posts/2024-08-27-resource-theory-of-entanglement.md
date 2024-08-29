@@ -80,4 +80,6 @@ All of this goes to show that multipartite entanglement is non-trivial, and elud
 
 [^5]: Sauerwein, D., Wallach, N. R., Gour, G., & Kraus, B. (2018). *Transformations among pure multipartite entangled states via local operations are almost never possible.* Physical Review X, **8**(3), 031020, available at [1711.11056](https://doi.org/10.48550/arXiv.1711.11056). 
 
-[^6]: Contreras-Tejada, P., Palazuelos, C., & De Vicente, J. I. (2019). *Resource theory of entanglement with a unique multipartite maximally entangled state.* Physical Review Letters, **122**(12), 120503, available at [1807.11395](https://doi.org/10.48550/arXiv.1807.11395)
+[^6]: Contreras-Tejada, P., Palazuelos, C., & De Vicente, J. I. (2019). *Resource theory of entanglement with a unique multipartite maximally entangled state.* Physical Review Letters, **122**(12), 120503, available at [1807.11395](https://doi.org/10.48550/arXiv.1807.11395). 
+
+[^7]: Epping, M., Kampermann, H., & Bruß, D. (2017). *Multi-partite entanglement can speed up quantum key distribution in networks.* New Journal of Physics, **19**(9), 093012, available at [1612.05585](https://doi.org/10.48550/arXiv.1612.05585).
