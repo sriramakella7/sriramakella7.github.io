@@ -58,26 +58,15 @@ A mixed state $$\rho$$ is entangled if it **cannot** be written as a convex comb
 ### Full Separability-Preserving maps (FSPs) 
 What are the allowed transformations that don't create entanglement? Instead of LOCC, let's consider the set of transformations that map mixed states to mixed states, but send separable states to separable states. Such transformations can't create entanglement, and the LOCC transformations are a subset of all such transformations. Let's call these transformations full separability-preserving (FSP) transformations[^6]. 
 
-Under this broader class of "free" operations, does the zoo of multipartite entanglement collapse and become something simple? Turns out it does, but not quite. The following three theorems have been proved[^6]: 
+Under this broader class of "free" operations, does the zoo of multipartite entanglement collapse and become something simple? For three qubits, the answer is no[^6]. And although there is no proof for higher number of qubits, it seems reasonable to expect that such a collapse does not occur. An immediate problem is to come up with such a proof, or a counterexample. If there is a maximally entangled state under this FSP paradigm, I'll be quite interested. But I believe it shouldn't be hard, based on some physical expectations, to come up with a proof.
 
-- **Theorem 1 (collapse of SLOCC classes)**: Any state $$|\psi\rangle$$ can be converted to any other state $$|\phi \rangle$$ *probabilistically* via an FSP map $$\Lambda$$. 
+The way the proof goes, from what I could understand reading the paper, is as follows. There is some FSP monotone (something that doesn't increase under FSPs) that says if there is a maximally entangled state, it is the W state. The authors then compute another FSP monotone for the W and GHZ and get the same answer. However, based on some intermediate steps of the calculation, they rule out W state as the maximally entangled state. Et voila. 
 
-- **Theorem 2 (no islands)**: Given any state $$|\psi_1\rangle$$, there exists an *inequivalent* state $$|\psi_2 \rangle$$ and an FSP map $$\Lambda$$ such that $$\Lambda(\psi_1) = \psi_2$$. 
+### Where does this all leave us? 
 
-- **Theorem 3**: Even under the broader class of FSP transformations, there is no maximally entangled three-qubit state.  
+The infinitely many inequivalent LOCC classes for more than four qubits is disappointing in the sense that there is no nice way to characterize multipartite entanglement. The bipartite story was quite nice with the Schmidt decomposition and Nielsen's majorization. What the negative result above shows is that extending the LOCC paradigm to FSP doesn't help either. 
 
-
-For three qubits, the answer is no[^6]. And although there is no proof for higher number of qubits, it seems reasonable to expect that such a collapse does not occur. An immediate problem is to come up with such a proof. But until such a proof is found (and it hasn't been found to the best of my knowledge), there is a chance that for more number of qubits, the zoo collapses. 
-
-
-
-
-
-
-
-
-
-
+All of this goes to show that multipartite entanglement is non-trivial, and eludes all attempts at classification. LOCC is a natural paradigm in an operational sense, and extending it hasn't helped pin down what multipartite entanglement means. The best we can hope for is to live with these inequivalent LOCC classes, and come up with novel quantum routines that exploit the nature of their multipartite entanglement. Although I know very little, there are protocols for quantum key distribution (QKD) that utilize genuine multipartite entanglement to achieve a speed-up[^7]. This is probably the right direction to take these lines of research. 
 
 ### References
 [^1]: Chitambar, E., & Gour, G. (2019). *Quantum resource theories.* Reviews of Modern Physics, **91**(2), 025001, available at [1806.06107](https://doi.org/10.48550/arXiv.1806.06107).
