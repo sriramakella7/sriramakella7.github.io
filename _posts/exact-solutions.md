@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Resource theory of quantum entanglement" 
-categories: quant-ph
+title: "Exact Solutions to Einstein's Field Equations" 
+categories: gr-qc
 comments: true
 ---
 
