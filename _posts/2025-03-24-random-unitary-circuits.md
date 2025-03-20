@@ -4,9 +4,10 @@ title: "Random Unitary Circuits"
 categories: quant-ph
 comments: true
 ---
-In this post, I want to discuss a beautiful paper[^1] by Tianci Zhou and Adam Nahum that came out in 2018. The problem they consider is simple, but has a very rich structure as we'll soon see. 
 
 ## Introduction
+In this post, I want to discuss a beautiful paper[^1] by Tianci Zhou and Adam Nahum that came out in 2018. The problem they consider is simple, but has a very rich structure as we'll soon see. 
+
 Realistic many-body problems that appear in physics are hard. In fact, sometimes they are so hard, that we might as well be completely agnostic about the details of the problem and assume the dynamics is completely random; subject to the laws of physics. 
 
 Wigner put this idea to use when he wrote the following probability distribution for the spacing between the points in the spectra of the nuclei of heavy atoms: 
