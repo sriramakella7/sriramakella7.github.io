@@ -10,3 +10,5 @@ permalink: /talks-and-presentations/
 
 - ***Landauer's Erasure and Exorcism.*** This is a short presentation I gave as part of a Statistical Physics course here at TIFR in 2022. You can find my slides [here](/assets/Landauer_s_Erasure.pdf){:target="_blank"}. 
 
+- ***Some Random Talk.*** This is another random talk I'm adding to check whether Github pages is working or not. Click [here](/assets/CV_Academic.pdf) for my CV. 
+
