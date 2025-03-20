@@ -11,25 +11,25 @@ In this post, I want to discuss a beautiful paper[^1] by Tianci Zhou and Adam Na
 Realistic many-body problems that appear in physics are hard. In fact, sometimes they are so hard, that we might as well be completely agnostic about the details of the problem and assume the dynamics is completely random; subject to the laws of physics. 
 
 Wigner put this idea to use when he wrote the following probability distribution for the spacing between the points in the spectra of the nuclei of heavy atoms: 
-$$
+\begin{equation}
 p(s) = \frac{\pi s}{2} e^{-\pi s^2/4}.
-$$
-This is, in fact, the probability distribution followed by the difference between two eigenvalues $\lambda_1$ and $\lambda_2$ of a $2 \times 2$ matrix drawn from the so called Gaussian Orthogonal Ensemble (GOE)[^2]. 
+\end{equation}
+This is, in fact, the probability distribution followed by the difference between two eigenvalues $$\lambda_1$$ and $$\lambda_2$$ of a $$2 \times 2$$ matrix drawn from the so called Gaussian Orthogonal Ensemble (GOE)[^2]. 
 
-The problem Zhou and Nahum consider is the following. Suppose we have an infinite linear chain of qudits (of local dimension $q \geq 2$) subject to a random quantum circuit. 
+The problem Zhou and Nahum consider is the following. Suppose we have an infinite linear chain of qudits (of local dimension $$q \geq 2$$) subject to a random quantum circuit. 
 
-Each unitary gate $U$ that acts on two qudits is drawn from the Haar ensemble, and at a circuit depth $t$, this prepares for us a state $\ket{\psi(t)}$ at the dashed red line. The initial state $\ket{\psi(0)}$ is something we specify. Say a subset of the qudits at depth $t$ are labeled $A$ and $B$ is the set of all qudits not in $A$. Then we can construct the reduced density matrix 
-$$
+Each unitary gate $$U$$ that acts on two qudits is drawn from the Haar ensemble, and at a circuit depth $$t$$, this prepares for us a state $$\ket{\psi(t)}$$ at the dashed red line. The initial state $$\ket{\psi(0)}$$ is something we specify. Say a subset of the qudits at depth $$t$$ are labeled $$A$$ and $$B$$ is the set of all qudits not in $$A$$. Then we can construct the reduced density matrix 
+\begin{equation}
 \rho_A(t) = \text{Tr}_{B}\left(\ket{\psi(t)} \bra{\psi(t)}\right), 
-$$
+\end{equation}
 and ask what is the time dependence of the entanglement entropy? Recall the entanglement entropy is defined as 
-$$
+\begin{equation}
 S(A) = -\text{Tr}\, \rho_A \log \rho_A.
-$$
-This is implicitly a function of $t$ since $\rho_A$ is a function of $t$. More generally, we could ask what is the time dependence of the various Rényi entropies defined via
-$$
+\end{equation}
+This is implicitly a function of $$t$$ since $$\rho_A$$ is a function of $$t$$. More generally, we could ask what is the time dependence of the various Rényi entropies defined via
+\begin{equation}
 S_n(A) = \frac{1}{1-n} \log \text{Tr} \, \rho_A^n. 
-$$
+\end{equation}
 This question has a beautiful answer in terms of a random walker 
 
 ### References
