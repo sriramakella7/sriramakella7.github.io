@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Random Unitary Circuits
+title: "Random Unitary Circuits"
 categories: quant-ph
 comments: true
 ---
