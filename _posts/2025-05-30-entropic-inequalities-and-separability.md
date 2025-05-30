@@ -18,7 +18,6 @@ where the $$p_i$$'s are all positive and the $$\rho_A^{(i)}$$ and $$\rho_{B}^{(i
 It is a non-trivial problem to check whether such a decomposition is possible or not, thereby making it difficult to quantify mixed state entanglement. This is where entropic inequalities can come to our rescue.
 
 I will try to explain how in this short post. The main question I will address is 
-
 > **Main Question.** Can we use entropic quantities to give necessary and sufficient conditions for the separability of a mixed state $$\rho_{AB}$$ ? 
 
 ## Conditional Entropy
@@ -52,17 +51,13 @@ S(\rho) = -\text{Tr} \rho \log \rho.
 The reason conditional entropy can be negative is due to quantum entanglement. If we consider an entangled pure state $$\ket{\psi}_{AB}$$, for example, then the corresponding density matrix $$\rho_{AB}$$ has zero von Neumann entropy while the reduced density matrices $$\rho_A$$ and $$\rho_B$$ have non-zero von Neumann entropy.
 
 A natural question that pops up is: 
-
 >**Question.** For what quantum states $$\rho_{AB}$$ is the conditional quantum entropy positive? 
 
 An obvious answer would be separable states. As we just saw, entangled states are the ones which give negative conditional entropies. It is natural to expect that unentangled, i.e., separable, states have positive conditional quantum entropies.  This is indeed true[^3]. The conditional quantum entropy $$S(A|B)$$ is non-negative for separable states. 
 
 But the converse is not true. In other words, this only gives us a necessary condition for separability, not a sufficient one. If $$S(A|B)$$ is positive, we are not guaranteed to have a separable state; the Werner state[^4] furnishes a nice example. We can etch this new-found wisdom of ours onto the below figure:
-
-<p align="center"> <img width ="300px" src="assets/conditional-entropy.png"></p>
-
+![](/assets/conditional-entropy.png)
 The converse, as discussed above, is not true. This leads us to the next natural question: 
-
 > **Question.** Can we do better? In other words, can we find an entropic quantity where the implication goes both ways?
 
 This is indeed possible, and I'll now try to explain how.
@@ -76,8 +71,7 @@ Translating this question to classical probability distributions: how do we know
 \end{equation}
 
 An operational meaning to the mutual information is the extra information contained in the joint probability distribution $$p(x,y)$$ after extracting the information contained in the marginals $$p(x)$$ and $$p(y)$$. If $$X$$ and $$Y$$ are independent, then the mutual information is zero, but positive otherwise. The vanishing of mutual information, however, is a necessary and sufficient condition for statistical independence[^C]. This piece of wisdom is sketched below: 
-
-<p align="center"> <img width ="350px" src="assets/mutual-information.png"></p>
+![](/assets/mutual-information.png)
 
 The reason, as you might already know, is because the relative entropy of two distributions $$p(x)$$ and $$q(x)$$ over the sample space $$X$$, defined as 
 \begin{equation}\tag{9}
@@ -94,8 +88,7 @@ which is zero iff $$\rho = \sigma$$. The quantum mutual information is defined a
 \mathcal{I}(A, B) = S(\rho_{AB}|| \rho_A \otimes \rho_B) = S_A + S_B - S_{AB}.
 \end{equation}
 It is zero iff $$\rho_{AB} = \rho_A \otimes \rho_B$$. Let's put this important fact in a box.  
-
-<p align="center"> <img width ="350px" src="assets/quantum-mutual-information.png"></p>
+![](/assets/quantum-mutual-information.png)
 
 What we want to do however, is talk about separable states and not product states. The above fact only features product states. We will need to come up with something better.
 
@@ -128,7 +121,6 @@ This definition is quantum and makes no use of classical probabilities. We can d
 What's amazing about this construction is that $$\mathcal{I}(A, B| C) = 0$$ iff $$\rho_{AB}$$ is separable! The precise statement is if $$\rho_{AB}$$ is separable, then the $$\sigma_{ABC}$$ from Eq. (13) is such that $$\mathcal{I}(A, B| C) = 0$$; it saturates strong subadditivity. Conversely if any $$\sigma_{ABC}$$ is such that it saturates strong subadditivity, then $$\rho_{AB} = \text{Tr}_C \, \sigma_{ABC}$$ is separable. 
 
 This is going to be the final piece of wisdom we will etch into a Theorem[^6]. 
-
 > **Theorem.** *For any state $$\sigma_{ABC}$$ that saturates strong subadditivity, i.e., $$S_{AC} + S_{BC} - S_{ABC} - S_C = 0$$, the marginal state $$\rho_{AB} = \text{Tr}_C \, \sigma_{ABC}$$ is separable. Conversely, for any separable $$\rho_{AB}$$ there exists an extension $$\sigma_{ABC}$$ that saturates strong subadditivity.*
 
 This gives us a necessary and sufficient condition for separable $$\rho_{AB}$$ using strong subadditivity. Isn't that cool? 
