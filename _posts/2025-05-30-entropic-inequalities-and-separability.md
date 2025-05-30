@@ -54,7 +54,7 @@ The reason conditional entropy can be negative is due to quantum entanglement. I
 A natural question that pops up is: 
 >**Question.** For what quantum states $$\rho_{AB}$$ is the conditional quantum entropy positive? 
 
-An obvious answer would be separable states. As we just saw, entangled states are the ones which give negative conditional entropies. It is natural to expect that unentangled, i.e., separable, states have positive conditional quantum entropies.  This is indeed true[^3]. The conditional quantum entropy $$S_{A|B}$$ is non-negative for separable states. 
+An obvious answer would be separable states. As we just saw, entangled states are the ones which give negative conditional entropies. It is natural to expect that unentangled, i.e., separable, states have positive conditional quantum entropies.  This is indeed true[^3]. The conditional quantum entropy is non-negative for separable states. 
 
 But the converse is not true. In other words, this only gives us a necessary condition for separability, not a sufficient one. If $$S_{A|B}$$ is positive, we are not guaranteed to have a separable state; the Werner state[^4] furnishes a nice example. We can etch this new-found wisdom of ours onto the below figure:
 ![](/assets/conditional-entropy.png)
