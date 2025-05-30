@@ -48,14 +48,15 @@ However, quantum mechanically, the conditional entropy can be negative. We no lo
 \begin{equation}\tag{7}
 S(\rho) = -\text{Tr} \rho \log \rho.
 \end{equation}
+
 The reason conditional entropy can be negative is due to quantum entanglement. If we consider an entangled pure state $$\ket{\psi}_{AB}$$, for example, then the corresponding density matrix $$\rho_{AB}$$ has zero von Neumann entropy while the reduced density matrices $$\rho_A$$ and $$\rho_B$$ have non-zero von Neumann entropy.
 
 A natural question that pops up is: 
 >**Question.** For what quantum states $$\rho_{AB}$$ is the conditional quantum entropy positive? 
 
-An obvious answer would be separable states. As we just saw, entangled states are the ones which give negative conditional entropies. It is natural to expect that unentangled, i.e., separable, states have positive conditional quantum entropies.  This is indeed true[^3]. The conditional quantum entropy $$S(A|B)$$ is non-negative for separable states. 
+An obvious answer would be separable states. As we just saw, entangled states are the ones which give negative conditional entropies. It is natural to expect that unentangled, i.e., separable, states have positive conditional quantum entropies.  This is indeed true[^3]. The conditional quantum entropy $$S_{A|B}$$ is non-negative for separable states. 
 
-But the converse is not true. In other words, this only gives us a necessary condition for separability, not a sufficient one. If $$S(A|B)$$ is positive, we are not guaranteed to have a separable state; the Werner state[^4] furnishes a nice example. We can etch this new-found wisdom of ours onto the below figure:
+But the converse is not true. In other words, this only gives us a necessary condition for separability, not a sufficient one. If $$S_{A|B}$$ is positive, we are not guaranteed to have a separable state; the Werner state[^4] furnishes a nice example. We can etch this new-found wisdom of ours onto the below figure:
 ![](/assets/conditional-entropy.png)
 The converse, as discussed above, is not true. This leads us to the next natural question: 
 > **Question.** Can we do better? In other words, can we find an entropic quantity where the implication goes both ways?
@@ -118,7 +119,7 @@ such that $$\text{Tr}_C  \,\sigma_{ABC} = \rho_{AB}$$. The above quantity we def
 \end{equation}
 This definition is quantum and makes no use of classical probabilities. We can define it for any $$\sigma_{ABC}$$ even if it is not of the form given in Eq. (13). From strong subadditivity of quantum entropy[^5], we also know that this quantity is always non-negative.
 
-What's amazing about this construction is that $$\mathcal{I}(A, B| C) = 0$$ iff $$\rho_{AB}$$ is separable! The precise statement is if $$\rho_{AB}$$ is separable, then the $$\sigma_{ABC}$$ from Eq. (13) is such that $$\mathcal{I}(A, B| C) = 0$$; it saturates strong subadditivity. Conversely if any $$\sigma_{ABC}$$ is such that it saturates strong subadditivity, then $$\rho_{AB} = \text{Tr}_C \, \sigma_{ABC}$$ is separable. 
+What's amazing about this construction is that the conditional mutual information is zero iff $$\rho_{AB}$$ is separable! The precise statement is if $$\rho_{AB}$$ is separable, then the $$\sigma_{ABC}$$ from Eq. (13) is such that it saturates strong subadditivity. Conversely if any $$\sigma_{ABC}$$ is such that it saturates strong subadditivity, then $$\rho_{AB} = \text{Tr}_C \, \sigma_{ABC}$$ is separable. 
 
 This is going to be the final piece of wisdom we will etch into a Theorem[^6]. 
 > **Theorem.** *For any state $$\sigma_{ABC}$$ that saturates strong subadditivity, i.e., $$S_{AC} + S_{BC} - S_{ABC} - S_C = 0$$, the marginal state $$\rho_{AB} = \text{Tr}_C \, \sigma_{ABC}$$ is separable. Conversely, for any separable $$\rho_{AB}$$ there exists an extension $$\sigma_{ABC}$$ that saturates strong subadditivity.*
