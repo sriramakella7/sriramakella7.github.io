@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b1ad4f653b6a0617",
+        "id": "5070dd8892f8f5eb",
         "type": "tabs",
         "children": [
           {
-            "id": "2b4df90aa34cdb61",
+            "id": "1706a2686c9b8092",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -164,7 +164,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2b4df90aa34cdb61",
+  "active": "f1dd7fcb974f5b18",
   "lastOpenFiles": [
     "_posts/2025-05-30-entropic-inequalities-and-separability.md",
     "_posts/2024-08-27-resource-theory-of-entanglement.md",
