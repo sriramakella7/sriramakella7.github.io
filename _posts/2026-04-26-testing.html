@@ -1,0 +1,173 @@
+---
+layout: post
+title: "Testing HTML" 
+categories: quant-ph
+comments: true
+---
+
+<!DOCTYPE html> 
+<html lang='en-US' xml:lang='en-US'> 
+<head><title>What’s wrong with random tensor networks?</title> 
+<meta charset='utf-8' /> 
+<meta content='TeX4ht (https://tug.org/tex4ht/)' name='generator' /> 
+<meta content='width=device-width,initial-scale=1' name='viewport' /> 
+<link href='main.css' rel='stylesheet' type='text/css' /> 
+<meta content='main.tex' name='src' /> 
+ <script async='async' id='MathJax-script' src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/mml-chtml.js' type='text/javascript'></script>  
+<style>
+    body {
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin: 0;
+        padding: 1.4rem;
+        line-height: 1.6;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1.05rem;
+    }
+
+    h1, h2 {
+        font-weight: 600;
+        line-height: 1.3;
+    }
+</style>
+</head><body>
+   <div class='maketitle'>
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+
+<h2 class='titleHead'>What’s wrong with random tensor networks?</h2>
+ <div class='author'><span class='cmr-12x-x-120'>Sriram Akella</span><span class='thank-mark'><a href='#tk-1'><span class='tcrm-1440'>∗</span></a></span></div><br />
+<div class='date'><span class='cmr-12x-x-120'>March 1, 2026</span></div>
+   <div class='thanks'><br /><a id='tk-1'></a><span class='thank-mark'><span class='tcrm-1200'>∗</span></span><a class='url' href='sriram.akella@tifr.res.in'><span class='cmtt-12'>sriram.akella@tifr.res.in</span></a></div></div>
+   <section class='abstract' role='doc-abstract'> 
+<h3 class='abstracttitle'>
+<span class='cmbx-10x-x-109'>Abstract</span>
+</h3>
+      <!-- l. 19 --><p class='noindent'><span class='cmr-10x-x-109'>What goes here...</span>
+</p>
+</section>
+   <h3 class='likesectionHead' id='contents'><a id='x1-1000'></a>Contents</h3>
+   <div class='tableofcontents'>
+   <span class='sectionToc'>1 <a href='#introduction' id='QQ2-1-2'>Introduction</a></span>
+   </div>
+<!-- l. 25 --><p class='noindent'>
+</p>
+   <h3 class='sectionHead' id='introduction'><span class='titlemark'>1   </span> <a id='x1-20001'></a>Introduction</h3>
+<!-- l. 27 --><p class='noindent'>Random tensor networks <span class='cite'>[<a href='#XHayden_2016cfa'>1</a>]</span> are amazing toy models that describe how effective bulk
+gravitational degrees of freedom are encoded in the boundary. While very nice and easy to deal
+with, there are deep conceptual problems when we push these models beyond their limits. This
+week, I discuss some of these problems and review the various proposed solutions. There are
+three somewhat related problems that conventional random tensor networks suffer from:
+(a) flat entanglement spectrum, (b) trivial area operators, and (c) no-go bulk time
+evolution. These problems ultimately stem from failing to incorporate bulk gauge
+                                                                                      
+                                                                                      
+constraints (diff invariance). On top of that, the naive way of incorporating bulk gauge
+constraints is like shooting ourselves in the foot because of a no-go theorem proved in
+<span class='cite'>[<a href='#XFaist_2019ahr'>2</a>]</span>.
+</p><!-- l. 29 --><p class='indent'>   The flat entanglement spectrum problem is fairly simple to understand.
+Following Calabrese and Cardy <span class='cite'>[<a href='#XCalabrese_2009qy'>3</a>]</span>, the Rényi entropy of the ground state of a
+<!-- l. 29 --><math display='inline' xmlns='http://www.w3.org/1998/Math/MathML'><mrow><mo class='MathClass-open' stretchy='false'>(</mo><mn>1</mn> <mo class='MathClass-bin' stretchy='false'>+</mo> <mn>1</mn><mo class='MathClass-close' stretchy='false'>)</mo></mrow></math>-dimensional
+CFT is <!-- tex4ht:inline --></p><table class='equation'><tr><td>
+<!-- l. 30 --><math class='equation' display='block' xmlns='http://www.w3.org/1998/Math/MathML'><mrow>
+                             <mstyle class='label' id='x1-2001r1'></mstyle><!-- endlabel --><msub><mrow><mi>S</mi></mrow><mrow><mi>n</mi></mrow></msub><mo class='MathClass-open' stretchy='false'>(</mo><mi>A</mi><mo class='MathClass-close' stretchy='false'>)</mo> <mo class='MathClass-rel' stretchy='false'>=</mo> <mfrac><mrow><mi>c</mi></mrow> 
+<mrow><mn>6</mn></mrow></mfrac> <mrow><mo fence='true' form='prefix'> (</mo><mrow><mn>1</mn> <mo class='MathClass-bin' stretchy='false'>+</mo> <mfrac><mrow><mn>1</mn></mrow> 
+<mrow><mi>n</mi></mrow></mfrac> </mrow><mo fence='true' form='postfix'>)</mo></mrow> <mi mathvariant='italic'>log</mi><!-- nolimits --> <mrow><mo fence='true' form='prefix'> (</mo><mrow><mfrac><mrow><mi>l</mi></mrow>
+<mrow><mi>𝜖</mi></mrow></mfrac> </mrow><mo fence='true' form='postfix'>)</mo></mrow> <mo class='MathClass-bin' stretchy='false'>+</mo> <msubsup><mrow><mi>c</mi></mrow><mrow><mi>n</mi></mrow><mrow><mi>′</mi></mrow></msubsup><mo class='MathClass-punc' stretchy='false'>,</mo>
+</mrow></math></td><td class='eq-no'>(1)</td></tr></table>
+<!-- l. 32 --><p class='nopar'>where <!-- l. 33 --><math display='inline' xmlns='http://www.w3.org/1998/Math/MathML'><mi>l</mi></math> is the length of
+<!-- l. 33 --><math display='inline' xmlns='http://www.w3.org/1998/Math/MathML'><mi>A</mi></math> (which itself is a single
+spacelike interval), <!-- l. 33 --><math display='inline' xmlns='http://www.w3.org/1998/Math/MathML'><mi>𝜖</mi></math>
+is a UV cutoff, and <!-- l. 33 --><math display='inline' xmlns='http://www.w3.org/1998/Math/MathML'><msubsup><mrow><mi>c</mi></mrow><mrow><mi>n</mi></mrow><mrow><mi>′</mi></mrow></msubsup></math>
+are theory-dependent factors. Conventional random tensor networks, on the other hand, give
+rise to <!-- tex4ht:inline --></p><table class='equation'><tr><td>
+<!-- l. 34 --><math class='equation' display='block' xmlns='http://www.w3.org/1998/Math/MathML'><mrow>
+                              <mstyle class='label' id='x1-2002r2'></mstyle><!-- endlabel --><msub><mrow><mi>S</mi></mrow><mrow><mi>n</mi></mrow></msub><mo class='MathClass-open' stretchy='false'>(</mo><mi>A</mi><mo class='MathClass-close' stretchy='false'>)</mo> <mo class='MathClass-rel' stretchy='false'>=</mo> <mo class='MathClass-rel' stretchy='false'>|</mo><mi>γ</mi><mo class='MathClass-rel' stretchy='false'>|</mo> <mi mathvariant='italic'>log</mi><!-- nolimits --><mo class='MathClass-open' stretchy='false'>(</mo><mi>d</mi><mo class='MathClass-close' stretchy='false'>)</mo> <mo class='MathClass-bin' stretchy='false'>+</mo> <mstyle mathvariant='script'><mi>O</mi></mstyle><mo class='MathClass-open' stretchy='false'>(</mo><mn>1</mn><mo class='MathClass-close' stretchy='false'>)</mo><mo class='MathClass-punc' stretchy='false'>;</mo>
+</mrow></math></td><td class='eq-no'>(2)</td></tr></table>
+<!-- l. 36 --><p class='nopar'>Rényi entropies that do not depend on <!-- l. 37 --><math display='inline' xmlns='http://www.w3.org/1998/Math/MathML'><mi>n</mi></math>.
+Such a spectrum of Rényi entropies is called a <span class='cmti-12'>flat entanglement spectrum</span>, and this conflict
+with the CFT result needs to be resolved if we are to take random tensor networks
+seriously.
+</p><!-- l. 2 --><p class='noindent'>
+</p>
+<h3 class='likesectionHead' id='references'><a id='x1-3000'></a><span class='cmr-10'>References</span></h3>
+<!-- l. 2 --><p class='noindent'>
+                                                                                      
+                                                                                      
+   </p><div class='thebibliography'>
+   <p class='bibitem'><span class='biblabel'>
+ <span class='cmr-10'>[1]</span><span class='bibsp'><span class='cmr-10'>   </span></span></span>
+   <a id='XHayden_2016cfa'></a><span class='cmr-10'>P. Hayden,
+   S. Nezami,
+   X.-L. Qi,
+   N. Thomas,
+   M. Walter
+   and
+   Z. Yang,
+   </span><span class='cmti-10'>Holographic
+   duality
+   from
+   random
+   tensor
+   networks</span><span class='cmr-10'>,</span>
+   <a href='https://doi.org/10.1007/JHEP11(2016)009'><span class='cmti-10'>JHEP
+   </span><span class='cmbx-10'>11
+   </span><span class='cmr-10'>(2016)
+   009</span></a>
+   <span class='cmr-10'>[</span>
+   <a href='https://arxiv.org/abs/1601.01694'><span class='cmtt-10'>1601.01694</span></a><span class='cmr-10'>].</span>
+   </p>
+   <p class='bibitem'><span class='biblabel'>
+ <span class='cmr-10'>[2]</span><span class='bibsp'><span class='cmr-10'>   </span></span></span>
+   <a id='XFaist_2019ahr'></a><span class='cmr-10'>P. Faist,
+   S. Nezami,
+   V.V. Albert,
+   G. Salton,
+   F. Pastawski,
+   P. Hayden
+   et al.,
+   </span><span class='cmti-10'>Continuous
+   symmetries
+   and
+   approximate
+   quantum
+   error
+   correction</span><span class='cmr-10'>,</span>
+   <a href='https://doi.org/10.1103/PhysRevX.10.041018'><span class='cmti-10'>Phys.
+   Rev.
+   X
+   </span><span class='cmbx-10'>10
+   </span><span class='cmr-10'>(2020)
+   041018</span></a>
+   <span class='cmr-10'>[</span>
+   <a href='https://arxiv.org/abs/1902.07714'><span class='cmtt-10'>1902.07714</span></a><span class='cmr-10'>].</span>
+   </p>
+   <p class='bibitem'><span class='biblabel'>
+ <span class='cmr-10'>[3]</span><span class='bibsp'><span class='cmr-10'>   </span></span></span>
+   <a id='XCalabrese_2009qy'></a><span class='cmr-10'>P. Calabrese
+                                                                                      
+                                                                                      
+   and
+   J. Cardy,
+   </span><span class='cmti-10'>Entanglement
+   entropy
+   and
+   conformal
+   field
+   theory</span><span class='cmr-10'>,</span>
+   <a href='https://doi.org/10.1088/1751-8113/42/50/504005'><span class='cmti-10'>J.
+   Phys.
+   A
+   </span><span class='cmbx-10'>42
+   </span><span class='cmr-10'>(2009)
+   504005</span></a>
+   <span class='cmr-10'>[</span>
+   <a href='https://arxiv.org/abs/0905.4013'><span class='cmtt-10'>0905.4013</span></a><span class='cmr-10'>].</span>
+</p>
+   </div>
+    
+</body> 
+</html>
