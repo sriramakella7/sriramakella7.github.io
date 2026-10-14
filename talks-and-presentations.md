@@ -12,6 +12,8 @@ permalink: /talks-and-presentations/
 
 - ***Tripartite entanglement in the HaPPY code is not holographic.*** (Dec 4, 2025) Talk at the [Taiwan String Workshop 2025](https://www.google.com/search?hl=en&q=taiwan%20string%20workshop%202025){:target="_blank"}, National Tsing Hua University, Hsinchu. The slides are available [here](/assets/taiwan-talk-slides-2025.pdf){:target="_blank"}.
 
+- ***Gauge Theory and Integrability.*** I started an informal lecture series on integrability with the intention of building up to Costello, Witten, and Yamazaki's papers. The series abruptly ended around Nov 2025. My incomplete notes are available [here](/assets/Integrability.pdf){:target="_blank"}. 
+
 - ***Virasoro TQFT as a description of pure 3D gravity.*** (Aug 21, 2025) Talk at TIFR as part of our group's weekly virtual tea seminar. I discussed some recent developments in 3d gravity based on [arXiv:2304.13650](https://arxiv.org/abs/2304.13650){:target="_blank"}. Slides available [here](/assets/Virasoro_TQFT.pdf){:target="_blank"}.
 
 - ***The Entropy of Hawking Radiation.*** [These](/assets/wormholes_slides.pdf){:target="_blank"} are slides to a presentation I gave at the end of a reading course on the Black Hole Information Paradox.
@@ -20,4 +22,3 @@ permalink: /talks-and-presentations/
 
 - ***Landauer's Erasure and Exorcism.*** This is a short presentation I gave as part of a Statistical Physics course here at TIFR in 2022. You can find my slides [here](/assets/Landauer_s_Erasure.pdf){:target="_blank"}.
 
-- ***Gauge Theory and Integrability.*** I started an informal lecture series on integrability with the intention of building up to Costello, Witten, and Yamazaki's papers. The series abruptly ended around Nov 2025. My incomplete notes are available [here](/assets/Integrability.pdf){:target="_blank"}. 
