@@ -5,7 +5,7 @@
 layout: page
 ---
 
-<img align="right" width="300" hspace="20" src="/assets/profile-picture.jpg">
+<img class="profile-picture" src="/assets/profile-picture.jpg" alt="Portrait of Sriram Akella">
 
 Hello and welcome to my website!
 
