@@ -11,8 +11,8 @@ Hello and welcome to my website!
 
 I'm Sriram Akella, a research scholar at the Department of Theoretical Physics, Tata Institute of Fundamental Research, Mumbai, India. I broadly work on Quantum Information Theory, Quantum Gravity, and Quantum Field Theory. My Ph.D. work, under Prof. Abhijit Gadde's supervision, focused on studying multipartite entanglement and what it reveals about topological phases of matter, quantum error-correcting codes, and holographic spacetimes. I'm currently exploring quantum nonlocal magic and what it diagnoses in holographic and quantum many-body systems.
 
-You can view my publications on [INSPIRE-HEP](https://inspirehep.net/authors/2885860){:target="_blank"}. The slides for some of the talks I gave are available at [Talks and Presentations](https://sriramakella7.github.io/talks-and-presentations/). Visit [What's New](https://sriramakella7.github.io/whats-new/) to know what I'm up to these days.
-You can reach me via email at [sriram.akella@tifr.res.in](mailto:sriram.akella@tifr.res.in). If you'd rather not send an email, fill out the [contact form](https://forms.gle/jJPp45MoWYmYfk6A8){:taget="_blank"}.
+You can view my publications on [INSPIRE-HEP](https://inspirehep.net/authors/2885860){:target="_blank"}. The slides for some of the talks I gave are available at [Talks and Presentations](https://sriramakella7.github.io/talks-and-presentations/){:target="_blank"}. Visit [What's New](https://sriramakella7.github.io/whats-new/){:target="_blank"} to know what I'm up to these days.
+You can reach me via email at [sriram.akella@tifr.res.in](mailto:sriram.akella@tifr.res.in){:target="_blank"}. If you'd rather not send an email, fill out the [contact form](https://forms.gle/jJPp45MoWYmYfk6A8){:target="_blank"}.
 
 <br>
 ## Worldline
