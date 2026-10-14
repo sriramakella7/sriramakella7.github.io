@@ -19,3 +19,5 @@ permalink: /talks-and-presentations/
 - ***Phonons as Goldstone Bosons.*** This is a presentation I gave as part of an Effective Field Theories course at TIFR in December 2022. You can find my slides [here](/assets/phonons%20as%20goldstone%20bosons.pdf){:target="_blank"}.
 
 - ***Landauer's Erasure and Exorcism.*** This is a short presentation I gave as part of a Statistical Physics course here at TIFR in 2022. You can find my slides [here](/assets/Landauer_s_Erasure.pdf){:target="_blank"}.
+
+- ***Gauge Theory and Integrability.*** I started an informal lecture series on integrability with the intention of building up to Costello, Witten, and Yamazaki's papers. The series abruptly ended around Nov 2025. My incomplete notes are available [here](/assets/Integrability.pdf){:target="_blank"}. 
