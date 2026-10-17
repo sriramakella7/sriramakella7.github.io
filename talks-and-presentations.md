@@ -8,6 +8,8 @@ permalink: /talks-and-presentations/
 
 - ***Genuine Multi-entropy in the toric code.*** (Jul 30, 2026) Blackboard talk at the Yukawa Institute of Theoretical Physics, Kyoto University as part of their weekly seminar. Mostly discussed the [toric code paper](https://arxiv.org/abs/2607.06050){:target="_blank"} with Iizuka-san and Miyata-san.
 
+<img class="yip-seminar" src="/assets/YITP-Seminar.jpg">
+
 - ***ST4 Lectures on Quantum Information and Holography.*** (Jun 22 - Jul 4, 2026) Lecture series at the [ST$^4$ workshop](https://sites.google.com/view/st4-2026/home){:target="_blank"} meant for advanced graduate students and postdoctoral researchers from India. Introduced holographic error-correcting codes and tensor network toy models of holography, along with guided exercises. (The notes of these lectures will be available soon on arXiv.)
 
 - ***Tripartite entanglement in the HaPPY code is not holographic.*** (Dec 4, 2025) Talk at the [Taiwan String Workshop 2025](https://www.google.com/search?hl=en&q=taiwan%20string%20workshop%202025){:target="_blank"}, National Tsing Hua University, Hsinchu. The slides are available [here](/assets/taiwan-talk-slides-2025.pdf){:target="_blank"}.
