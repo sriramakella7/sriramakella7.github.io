@@ -21,7 +21,7 @@
 title: Sriram Akella
 email: sriram.akella@tifr.res.in
 description: >- # this means to ignore newlines until "baseurl:"
-  Research Scholar, Department of Theoretical Physics, Tata Institute of Fundamental Research, Mumbai.
+  Department of Theoretical Physics, Tata Institute of Fundamental Research, Mumbai.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
@@ -34,13 +34,8 @@ plugins:
 minima: 
   skin: auto
 
-# Google Analytics
-analytics:
-  provider: "google-gtag"
-  google:
-    tracking_id: "G-YG18DSM9XM"
-
-
+# Google Analytics 4 (loaded by Minima in production builds)
+google_analytics: "G-YG18DSM9XM"
 
 # Exclude from processing.
 # The following items will not be processed, by default.

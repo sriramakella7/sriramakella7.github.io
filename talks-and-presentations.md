@@ -3,12 +3,14 @@ layout: page
 title: Talks and Presentations
 permalink: /talks-and-presentations/
 ---
+<figure>
+	<img class="yip-seminar" src="/assets/YITP-Seminar.jpg">
+	<figcaption> Seminar at the Yukawa Institute (July 2026). </figcaption>
+</figure> 
 
 - ***Genuine multiparty entanglement in stabilizer states and topology.*** (Sep 30, 2026) I gave this talk at the [Taiwan String Workshop 2026](https://phys.ncts.ntu.edu.tw/en/act/actnews/Taiwan%20String%20Workshop%202026%20-96162504/home/introduction){:target="_blank"}, National Tsing Hua University, Hsinchu.
 
 - ***Genuine Multi-entropy in the toric code.*** (Jul 30, 2026) Blackboard talk at the Yukawa Institute of Theoretical Physics, Kyoto University as part of their weekly seminar. Mostly discussed the [toric code paper](https://arxiv.org/abs/2607.06050){:target="_blank"} with Iizuka-san and Miyata-san.
-
-<img class="yip-seminar" src="/assets/YITP-Seminar.jpg">
 
 - ***ST4 Lectures on Quantum Information and Holography.*** (Jun 22 - Jul 4, 2026) Lecture series at the [ST$^4$ workshop](https://sites.google.com/view/st4-2026/home){:target="_blank"} meant for advanced graduate students and postdoctoral researchers from India. Introduced holographic error-correcting codes and tensor network toy models of holography, along with guided exercises. (The notes of these lectures will be available soon on arXiv.)
 
